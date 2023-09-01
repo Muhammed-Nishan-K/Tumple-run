@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 62px;
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    position: fixed;
+}
+.imgnav{
+    height: 62px; 
+    width: 112px;
+    align-items: center;
+    margin-left: 250px;
+}
+.nav1{
+    height: 62px;
+    width: 100px;
+    align-items: center;
+    padding-top: 4px;
+    margin-left: 404px;
+}
+.nav2{
+    height: 62px;
+    width: 100px;
+    align-items: center;
+    padding-top: 4px;
+}
+.nav3{
+    height: 62px;
+    width: 100px;
+    align-items: center;
+    padding-top: 4px;
+}
+.nav4{
+    height: 62px;
+    width: 100px;
+    align-items: center;
+    padding-top: 4px;
+}
+.nav5{
+    height: 62px;
+    width: 100px;
+    align-items: center;
+    padding-top: 4px;
+    
+
+}
+.nav6{
+    height: 62px;
+    width: 100px;
+    align-items: center;
+    padding-top: 4px;
+}
+.p{
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+}
+.p1{
+    margin: 0px;
+    width: 363px;
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 54px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+}
+/* -----------------------------main------------------------------- */
+.maindiv1{
+    width: 100%;
+    height: 707px;
+    background-image: url(./images/hero_1920x700.jpg);
+    background-size: 100% 100%;
+    display: flex;
+
+    
+}
+.pp{
+    height: 56px;
+    width: 307px;
+    margin-top: 320px;
+    margin-left: 585px;
+}
+.pp1{
+    width: 200px;
+    height: 20px;
+    margin-left: -239px;
+    margin-top: 388px;
+}
+.p2{
+    margin: 0%;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.maindiv2{
+    height:1000px;
+    width: 100%;
+    justify-content: center;
+}
+.maindiv2-main{
+    width: 70%;
+    height: 1000px;
+    margin-left: 15%;
+    display: box;
+}
+.maindiv2-1{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+
+}
+.maindiv2-2{
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+}
+.div1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 120px;
+}
+.div2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.maindiv2-2-1{
+    width: 50%;
+    height: 300px;
+    margin-right: 120px;
+    border-radius: 5%;
+    background-image: url(./images/Games_tr1.png);
+    background-size: 100% 100%;
+}
+.maindiv2-2-2{
+    width: 50%;
+    height: 300px;
+    border-radius: 5%;
+    background-image: url(./images/Games_tr2_b.png);
+    background-size: 100% 100%;
+
+}
+.maindiv2-2-3{
+    width: 50%;
+    height: 300px;
+    border-radius: 5%;
+    margin-right: 120px;
+    background-image: url(./images/Games_trpa.jpeg);
+    background-size: 100% 100%;
+}
+.maindiv2-2-4{
+    width: 50%;
+    height: 300px;
+    border-radius: 5%;
+    background-image: url(./images/coming-soon.jpg);
+    background-size: 100% 100%;
+}
+.l1{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: -488px;
+}
+.l2{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: -110px;
+    display: inline;
+}
+.p6{
+    display: inline;
+    margin-left: 401px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 29px;
+    color: rgb(119, 115, 115);
+}
+.p3{
+    display: inline;
+    margin-left: 436px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 29px;
+    color: rgb(119, 115, 115);
+    
+}
+.p4{
+    display: inline;
+    margin-left: 302px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 29px;
+    color: rgb(119, 115, 115);
+}
+.p5{
+    display: inline;
+    margin-left: 243px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 29px;
+    color: rgb(119, 115, 115);
+    
+}
+.maindiv3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.maindiv3-1{
+    width: 35%;
+    height: 500px;
+}
+.maindiv3-2{
+    width: 25%;
+    height: 500px;
+    background-image: url(./images/golden-idol.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+}
+/* ------------------------footer--------------------------- */
+/* .footer
+{
+    width: 100%;
+    height: 410px;
+    background: #000;
+    display: flex;
+}
+.footerimg{
+    width: 504px;
+    height: 498px;
+    background-image: url(./images/demonmonkey-home.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    top: -92px;
+    left: 206px;
+}
+.footer-1{
+    width: 368px;
+    height: 200px;
+    margin-left: 357px;
+    margin-top: 75px;
+}
+.footer2{
+    width: 100%;
+    height: 275px;
+} */
+.footer{
+    width: 100%;
+    height: 635px;
+    background-color: black;
+}
+#monkey{
+    margin-top:-80px ;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.careerbutton{
+    font-size: 11px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 190px;
+    margin-left: 64em;
+    background-color: white;
+    border:2px solid white;
+    position: absolute;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #808080;
+    cursor: pointer;
+}
+.careerbutton:hover{
+    background-color: transparent;
+    color: white;
+}
+.social{
+    color: #ffff;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 23em;
+    margin-left: 9.6em;
+    gap: 10px;
+}
+.download{
+    gap: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 27.4em;
+    margin-left: 51em;
+}
+.app{
+    width: 150px;
+    height: 50px;
+    background-image: url(https://imangistudios.com/wp-content/themes/imangi-1-0/img/app-store-badge.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.play{
+    width: 150px;
+    height: 50px;
+    background-image: url(https://imangistudios.com/wp-content/themes/imangi-1-0/img/google-play-badge.svg);
+    background-position: center;
+    background-size: 116%;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footnote{
+    font-size: 15px;
+    color: white;
+    font-family:Helvetica, sans-serif;
+    font-weight: 60;
+    position: absolute;
+    margin-top: 38.7em;
+    margin-left: 24.2em;
+}
